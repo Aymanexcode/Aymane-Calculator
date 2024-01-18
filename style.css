@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(cyan, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* style the calculator box */
+
+.calculator {
+    margin: auto;
+    margin-top: 100px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    gap: 5px;
+    padding: 10px;
+    max-width: 270px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+    /* style the resule display box */
+
+.display {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 25px;
+    margin: auto;
+    margin-left: 7px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+
+.display:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+    color: white;
+    border: solid 1px white;
+}
+
+/* style the buttons */
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 17px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    border: white solid 1px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    border: solid black 1px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+
+
+/* */
+
+
+
+
+@media (max-width: 600px) {
+
+    /* style the calculator box */
+
+    .calculator {
+        margin: auto;
+        margin-top: 150px;
+        background-color: cadetblue;
+        border-radius: 15px;
+        gap: 5px;
+        padding: 10px;
+        max-width: 270px;
+        overflow: hidden;
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+        /* style the resule display box */
+
+    .display {
+        width: 250px;
+        height: 50px;
+        margin-bottom: 25px;
+        margin: auto;
+        margin-left: 7px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.3s;
+    }
+
+    .display:hover {
+        background-color: rgba(255, 255, 255, 0.589);
+        color: white;
+        border: solid 1px white;
+    }
+
+    /* style the buttons */
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 17px;
+        border-radius: 100%;
+        border: none;
+        background-color: rgb(146, 146, 146);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
+        transition: 0.3s;
+        border: white solid 1px;
+        margin-top: 10px;
+    }
+
+    button:hover{
+        background-color: aliceblue;
+        color: black;
+        border: solid black 1px;
+    }
+
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+    }
+}
